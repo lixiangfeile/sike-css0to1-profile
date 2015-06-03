@@ -1,3 +1,9 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 body {
 	font-family: 'Open Sans','helvetica',arial,sans-serif;
 	font-weight: 300;
@@ -137,4 +143,26 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 3px solid black;
 	width: 80px;
 	margin: 10px auto;
+}
+.float-left {
+	width:180px;
+	float: left;
+}
+.content {
+	overflow: hidden;
+}
+.content h3{
+	margin-left: 20px;
+}
+
+.content p{
+	margin-left: 20px;
+}
+.use-content-box {
+	padding: 10px;
+	float: left;
+	width: 25%;
+}
+.use-content-box img{
+	width: 100%;
 }
