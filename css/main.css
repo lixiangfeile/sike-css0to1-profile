@@ -166,3 +166,49 @@ h1, h2, h3, h4, h5, h6 {
 .use-content-box img{
 	width: 100%;
 }
+
+.get-in-touch header{
+		margin-top: 60px;
+}
+
+.contact input,
+.contact textarea {
+	width: 100%;
+	padding: 8px;
+
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact button {
+	width: 40%;
+	margin-top:20px;
+	margin-left:250px;
+	border: none;
+	border-radius: 9999px;
+
+	background: #ffd524;
+
+	cursor: pointer;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	color: #fff;
+	box-shadow: 0 3px 0 #daae1d;
+}
+
+
+.box {
+	position: relative;
+	margin: 10px auto;
+	width: 40%;
+}
+
+
+.box label {
+	text-align: right;
+	margin-right: 10px;
+	margin-left: 100px;
+	margin-top: 8px;
+	position: absolute;
+	right: 100%;
+	width: 200px;
+}
